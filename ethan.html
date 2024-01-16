@@ -1,0 +1,36 @@
+
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap");
+
+    body {
+        background-color: #0082c8;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 30px;
+    word-wrap: anywhere;
+    font-family: "Noto Serif SC";  
+    }
+</style>
+
+<body>
+    
+</body>
+    
+<script>
+
+    function coinToss() {
+        let chance = Math.random()
+        if (chance > 0.5) {
+            document.body.innerText += ' i love you '
+        } else {
+            document.body.innerText += ' <3 '
+        }
+        requestAnimationFrame(coinToss)
+    }
+
+    coinToss()
+
+
+// how does he see the inspector, how do i get that special character, does he have office hours (ask him coding questions for meng exam), 
+// how do i send my drawing to someone, use netart to rv arrays, loops, other objects etc before next tuesday
+</script>

@@ -10,6 +10,7 @@
     word-wrap: anywhere;
     font-family: "Noto Serif SC";  
     }
+    
 </style>
 
 <body>
@@ -29,7 +30,5 @@
     }
 
     coinToss()
-
-
 
 </script>
